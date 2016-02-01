@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../work/boxgallery/3D_Gallery_Unity/Assets/SuperDCamera/Scripts/SuperDDevice.cs">
+    <Files>
+      <File FileName="../../work/boxgallery/3D_Gallery_Unity/Assets/SuperDCamera/Scripts/SuperDOneCamera.cs" Line="55" Column="1" />
+      <File FileName="../../work/boxgallery/3D_Gallery_Unity/Assets/Scripts/LRStereoProcessor.cs" Line="5" Column="1" />
+      <File FileName="../../work/boxgallery/3D_Gallery_Unity/Assets/script/CameraController.cs" Line="30" Column="1" />
+      <File FileName="../../work/boxgallery/3D_Gallery_Unity/Assets/SuperDCamera/Scripts/SuperDDevice.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
