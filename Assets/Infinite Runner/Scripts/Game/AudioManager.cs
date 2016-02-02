@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour {
 
     public void Start()
     {
-        AudioSource[] sources = Camera.main.GetComponents<AudioSource>();
+        AudioSource[] sources = (GameObject.FindGameObjectWithTag("MainCamera") as GameObject ).GetComponents<AudioSource>();
         backgroundAudio = sources[0];
         soundEffectsAudio = new AudioSource[2];
         soundEffectsAudio[0] = sources[1];

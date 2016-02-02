@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{7407E0D5-6702-DD4A-1CD0-1DD7B5A8DD45}</ProjectGuid>
+	<ProjectGuid>{47D0FBC0-79C8-EA58-1070-B76D0A7ED5C3}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -171,7 +171,7 @@
      <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
  <Reference Include="NGUI">
- <HintPath>/Users/yangyong/Documents/WorkPlace/Unity/MyUnityOne/Assets/Infinite Runner/Third Party/NGUI/DLLs/NGUI.dll</HintPath>
+ <HintPath>/Users/yangyong/Documents/WorkPlace/Unity/RunInto/Assets/Infinite Runner/Third Party/NGUI/DLLs/NGUI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
