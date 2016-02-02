@@ -1,0 +1,159 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.8/UnityEngine.UI.dll'
+-r:'Assets/Infinite Runner/Third Party/NGUI/DLLs/NGUI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-define:UNITY_4_6_8
+-define:UNITY_4_6
+-define:UNITY_STANDALONE_OSX
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:UNITY5_SCRIPTING_IN_UNITY4
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+'Assets/Infinite Runner/Scripts/Game/AudioManager.cs'
+'Assets/Infinite Runner/Scripts/Game/CoinGUICollection.cs'
+'Assets/Infinite Runner/Scripts/Game/DataManager.cs'
+'Assets/Infinite Runner/Scripts/Game/GUIClickEventReceiver.cs'
+'Assets/Infinite Runner/Scripts/Game/GUIManager.cs'
+'Assets/Infinite Runner/Scripts/Game/GameManager.cs'
+'Assets/Infinite Runner/Scripts/Game/InputController.cs'
+'Assets/Infinite Runner/Scripts/Game/MissionManager.cs'
+'Assets/Infinite Runner/Scripts/Game/PowerUpManager.cs'
+'Assets/Infinite Runner/Scripts/Game/SocialManager.cs'
+'Assets/Infinite Runner/Scripts/Game/StaticData.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/AppearanceProbability.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/AppearanceRules.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/CollidableAppearanceRules.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/InfiniteObjectGenerator.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/InfiniteObjectHistory.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/InfiniteObjectManager.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/InfiniteObjectPersistence.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/PlatformAppearanceRules.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/PowerUpAppearanceRules.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/SceneAppearanceRules.cs'
+'Assets/Infinite Runner/Scripts/InfiniteGenerator/SectionSelection.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/CoinObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/CollidableObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/InfiniteObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/MovingObstacleObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/MovingObstacleTrigger.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/ObstacleObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/PlatformObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/PowerUpObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteObjects/SceneObject.cs'
+'Assets/Infinite Runner/Scripts/InfiniteRunnerStarterPackUtility.cs'
+'Assets/Infinite Runner/Scripts/Player/CameraController.cs'
+'Assets/Infinite Runner/Scripts/Player/ChaseController.cs'
+'Assets/Infinite Runner/Scripts/Player/CoinMagnetTrigger.cs'
+'Assets/Infinite Runner/Scripts/Player/DeathTrigger.cs'
+'Assets/Infinite Runner/Scripts/Player/JumpTrigger.cs'
+'Assets/Infinite Runner/Scripts/Player/PlayerAnimation.cs'
+'Assets/Infinite Runner/Scripts/Player/PlayerController.cs'
+'Assets/Infinite Runner/Scripts/Player/ProjectileManager.cs'
+'Assets/Infinite Runner/Scripts/Player/ProjectileObject.cs'
+'Assets/Infinite Runner/Scripts/Player/TurnTrigger.cs'
+'Assets/Infinite Runner/Scripts/Player/TutorialTrigger.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/LanguageSelection.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButton.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonColor.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonKeys.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonMessage.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonOffset.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonPlayAnimation.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonRotation.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonScale.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonSound.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIButtonTween.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UICheckbox.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UICheckboxControlledComponent.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UICheckboxControlledObject.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIDragCamera.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIDragObject.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIDragPanelContents.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIDraggableCamera.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIDraggablePanel.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIForwardEvents.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIGrid.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIImageButton.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIInputValidator.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIPopupList.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UISavedOption.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UIScrollBar.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UISlider.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UISliderColors.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Interaction/UITable.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Internal/Localization.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Internal/SpringPanel.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenColor.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenPosition.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenRotation.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenScale.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenTransform.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/TweenVolume.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/Tweening/UITweener.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIAnchor.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIAtlas.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UICamera.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIFilledSprite.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIFont.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIInput.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIInputSaved.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UILabel.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UILocalize.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIOrthoCamera.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIPanel.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIRoot.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UISlicedSprite.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UISprite.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UISpriteAnimation.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIStretch.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UITextList.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UITexture.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UITiledSprite.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UITooltip.cs'
+'Assets/Infinite Runner/Third Party/NGUI/Scripts/UI/UIViewport.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/AnaglyphEffect.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/Camera3DController.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/CameraParaComputer.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/LRStereoProcessor.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/ThreeDDevice.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/ThreeDOneCamera.cs'
+'Assets/Infinite Runner/ThreeDCamera/Scripts/ThreeDStereoCamera.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
